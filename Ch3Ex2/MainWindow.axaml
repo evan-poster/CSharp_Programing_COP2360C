@@ -1,0 +1,15 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="ProjectedRaisesGUI.MainWindow"
+        Title="ProjectedRaisesGUI"
+        Width="400"
+        Height="200">
+
+  <StackPanel Margin="10">
+    <TextBox Name="TextBox1" Watermark="Enter employee salary" />
+    <Button Name="CalculateButton" Content="Calculate" Margin="0,10,0,0" Click="OnCalculateButtonClick"/>
+    <TextBlock Name="ResultLabel" Text="" Margin="0,10,0,0"/>
+ 
+              
+   </StackPanel>
+</Window>
