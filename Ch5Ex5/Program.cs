@@ -59,7 +59,9 @@ namespace Ch5Ex5
 			// Determine top performer
 			float highest = Math.Max(totalDanielle, totalEdward);
 			highest = Math.Max(highest, totalFrancis);
-			if (highest == totalDanielle) {
+			if (highest == 0) {
+				WriteLine("No sales were entered.");
+			} else if (highest == totalDanielle) {
 				WriteLine("Danielle is the individual with the highest total.");
 			} else if (highest == totalEdward) {
 				WriteLine("Edward is the individual with the highest total.");
