@@ -33,7 +33,7 @@ namespace Ch4Ex9
 
 			// Generate three random numbers
 			Random random = new Random();
-			int [] winningNumbers = {1,2,3};//{random.Next(1, 5), random.Next(1, 5), random.Next(1, 5)};
+			int [] winningNumbers = {random.Next(1, 5), random.Next(1, 5), random.Next(1, 5)};
 
 			// Allow the user to guess three numbers
 			WriteLine("Enter 3 numbers between 1 and 4:");
