@@ -19,7 +19,7 @@ namespace Ch5Ex14
 		{
 			// Greet user and explain basic rules
 			WriteLine("Guessing Game");
-			WriteLine("Guess a number between 1 and 100");
+			WriteLine("Guess a number between 1 and " + maxValue);
 
 			// Generate random number for game
 			Random random = new Random();
