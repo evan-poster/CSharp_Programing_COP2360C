@@ -8,19 +8,21 @@ the value to kilometers, and then returns the value to the Main() method where i
 displayed. A mile is 1.60934 kilometers.
 */
 
-class Program {
-	static void Main() {
-		// Prompt the user for a number of miles
-		WriteLine("Enter a number of miles: ");
+namespace Ch7Ex4 {
+	class Program {
+		static void Main() {
+			// Prompt the user for a number of miles
+			WriteLine("Enter a number of miles: ");
 
-		// Convert the value to kilometers
-		double miles = double.Parse(ReadLine());
+			// Convert the value to kilometers
+			double miles = double.Parse(ReadLine());
 
-		// Display the result
-		WriteLine($"{miles} miles is {ConvertMilesToKilometers(miles)} kilometers.");	
-	}
+			// Display the result
+			WriteLine($"{miles} miles is {ConvertMilesToKilometers(miles)} kilometers.");	
+		}
 
-	public static double ConvertMilesToKilometers(double miles) {
-		return miles * 1.60934;
+		public static double ConvertMilesToKilometers(double miles) {
+			return miles * 1.60934;
+		}
 	}
 }
